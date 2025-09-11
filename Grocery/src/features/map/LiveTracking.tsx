@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const OrderSuccess = () => {
+const LiveTracking = () => {
   return (
     <View>
-      <Text>OrderSuccess</Text>
+      <Text>LiveTracking</Text>
     </View>
   )
 }
 
-export default OrderSuccess
+export default LiveTracking
 
 const styles = StyleSheet.create({})

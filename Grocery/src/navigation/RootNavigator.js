@@ -8,6 +8,7 @@ import DeliveryDashboard from '@features/delivery/DeliveryDashboard';
 import ProductCategories from '@features/category/ProductCategories';
 import ProductOrder from '@features/order/ProductOrder';
 import OrderSuccess from '@features/order/OrderSuccess';
+import LiveTracking from '@features/map/LiveTracking';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,6 +24,7 @@ export default function RootNavigator() {
       <Stack.Screen name="ProductOrder" component={ProductOrder} />
       <Stack.Screen name="ProductCategories" component={ProductCategories} />
       <Stack.Screen name="OrderSuccess" component={OrderSuccess} />
+      <Stack.Screen name="LiveTracking" component={LiveTracking} />
       <Stack.Screen
         options={{
           animation: 'fade',
